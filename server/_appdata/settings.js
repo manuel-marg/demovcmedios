@@ -62,7 +62,15 @@ module.exports = {
     // Please use exact origin urls for better and safe CORS (Wild Cards not Recommended)
     // "allowedOrigins": ["https://example.com", "https://dashboard.example.com"]
     // Default: ["http://localhost", "http://127.0.0.1", "http://192.168.*", "http://10.*"]
-    "allowedOrigins": ["http://localhost", "http://127.0.0.1", "http://192.168.*", "http://10.*", "http://localhost:4200"],
+    "allowedOrigins": [
+        "https://rbcodehouse.duckdns.org",
+        "http://rbcodehouse.duckdns.org",
+        "http://localhost",
+        "http://127.0.0.1",
+        "http://192.168.*",
+        "http://10.*",
+        "http://localhost:4200"
+    ],
 
 
     // The maximum size of HTTP request that will be accepted by the runtime api.
@@ -73,16 +81,16 @@ module.exports = {
     // disable to use only the Editor
     //disableServer: false,
 
-    // The following property can be used to enable HTTPS !NOT SUPPORTED NOW!
+    // The following property can be used to enable HTTPS
     // See http://nodejs.org/api/https.html#https_https_createserver_options_requestlistener
     // for details on its contents.
     // See the comment at the top of this file on how to load the `fs` module used by
     // this setting.
     //
-    //https: {
-    //    key: fs.readFileSync('privatekey.pem'),
-    //    cert: fs.readFileSync('certificate.pem')
-    //},
+    https: {
+        key: require('fs').readFileSync('./privkey.pem'),
+        cert: require('fs').readFileSync('./fullchain.pem')
+    },
 
     // Used to enable security, authentication and authorization and crypt Token
     //secureEnabled: true,

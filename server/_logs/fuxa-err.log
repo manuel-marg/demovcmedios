@@ -3050,3 +3050,32 @@
 2026-02-04T21:21:37.554Z [error] 'Gateway #1' _readMemory error! [object Object]
 2026-02-04T21:21:38.559Z [error] 'Gateway #1' _readMemory error! [object Object]
 2026-02-04T21:21:39.570Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:45.201Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:47.204Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:49.222Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:51.224Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:53.241Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:55.245Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:57.248Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:18:59.266Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:01.282Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:03.286Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:03.288Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:04.288Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:05.304Z [error] 'Gateway #1' _readMemory error! [object Object]
+2026-02-07T23:19:13.097Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:13.099Z [error] 'Gateway #1' connect error! undefined (0)
+2026-02-07T23:19:18.115Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:18.116Z [error] 'Gateway #1' connect error! undefined (1)
+2026-02-07T23:19:23.122Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:23.125Z [error] 'Gateway #1' connect error! undefined (2)
+2026-02-07T23:19:28.109Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:28.110Z [error] 'Gateway #1' connect error! undefined (3)
+2026-02-07T23:19:33.115Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:33.116Z [error] 'Gateway #1' connect error! undefined (4)
+2026-02-07T23:19:38.137Z [error] 'Gateway #1' connect failed! Error: TCP Connection Timed Out
+2026-02-07T23:19:38.138Z [error] 'Gateway #1' connect error! undefined (0)
+2026-02-07T23:19:41.125Z [error] 'Gateway #1' connect error! undefined (1)
+2026-02-07T23:19:46.128Z [error] 'Gateway #1' connect error! undefined (2)
+2026-02-07T23:19:51.133Z [error] 'Gateway #1' connect error! undefined (3)
+2026-02-07T23:19:56.138Z [error] 'Gateway #1' connect error! undefined (4)
